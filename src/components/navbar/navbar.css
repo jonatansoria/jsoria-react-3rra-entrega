@@ -1,0 +1,17 @@
+
+.container {
+    background-color: rgb(144, 64, 197);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav {
+     padding: 20px;    
+     font-size: large;
+     font-weight: bold;
+      
+     
+}
+
+
