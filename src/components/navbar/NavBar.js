@@ -18,7 +18,7 @@ const NavBarApp = () => {
              <a className='links' href='contacto'>Contacto</a>
              </li>
              <li>
-             <a className='links' href='cart'><CartWidget /></a>
+             <a className='cart-logo' href='cart'><CartWidget /></a>
              </li>
            </ul>            
          </nav>

@@ -1,17 +1,26 @@
 
 .container {
-    background-color: rgb(144, 64, 197);
-    color: black;
+    background: linear-gradient(90deg, rgba(191,133,230,1) 0%, rgba(181,82,241,0.9500175070028011) 42%, rgba(69,199,252,1) 100%);
     text-align: center;
-    text-decoration: none;
+    
+    
+
 }
 
 nav {
-     padding: 20px;    
-     font-size: large;
-     font-weight: bold;
-      
-     
+     padding: 5px;    
+     list-style-type: style none; 
+ 
 }
-
+.links {
+    font-size: large;
+     font-weight: bold;
+     color:white;
+     text-decoration: none;   
+     list-style: none ;
+}
+.cart-logo {
+    color:white;
+    width: 50px;
+}
 
