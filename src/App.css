@@ -1,0 +1,13 @@
+.App {
+    display: grid;
+    justify-content: center;
+    
+    background-color: cadetblue;
+}
+
+.card {
+    margin: 30px;
+
+}
+
+    

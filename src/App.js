@@ -1,23 +1,25 @@
 import React from 'react';
 import './App.css';
-import NavBarApp from './components/navbar/NavBar'
-import ItemListContainer from './components/itemListContainer/itenlist'
-import ItemCount from './components/ItemCount/ItemCount';
+import ProductList from './components/itemListContainer/item';
 
 
-function App() {
+
+const App = () => {
+ 
   return (
-    <div className="App">
-    <>
-     <NavBarApp />
      
-   <ItemListContainer /> 
+    <div className='App'>   
+    <div>
+      <h1>Desafio numero 5</h1> 
+      </div> 
+      <div className='container'>
+      <div className="card">
+       <ProductList/>
+      </div>
+   </div>
+   </div>
+  )
 
-   <ItemCount/>
-   </>
-
-    </div>
-  );
 }
 
 export default App;
